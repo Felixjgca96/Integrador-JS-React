@@ -7,7 +7,9 @@ import { BurgerMenu } from "./components/Navbar/BurgerMenuContext";
 function App() {
   return (
     <>
-      <BurgerMenu></BurgerMenu>
+      <BurgerMenu>
+        <Navbar />
+      </BurgerMenu>
       <Layout>
         <Routes />
         <Footer />
