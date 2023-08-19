@@ -12,7 +12,6 @@ function Home() {
       <Hero />
       <Beneficios />
       <Categorias />
-      <CardsProductos />
       <Contacto />
     </HomeWrapper>
   );
