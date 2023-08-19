@@ -4,6 +4,7 @@ import Categorias from "../../components/Categorias/Categorias";
 import Contacto from "../../components/Contacto/Contacto";
 
 import { HomeWrapper } from "./HomeStyles";
+import CardsProductos from "../../components/Productos/CardsProductos";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <Beneficios />
       <Categorias />
+      <CardsProductos />
       <Contacto />
     </HomeWrapper>
   );
