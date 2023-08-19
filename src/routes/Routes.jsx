@@ -5,8 +5,9 @@ import PageNotFound from "../pages/PageNotFound/PageNotFound";
 import SobreNosotros from "../pages/SobreNosotros/SobreNosotros";
 import ProductosRoutes from "../pages/ProductosRoutes/ProductosRoutes";
 import ContactoRoutes from "../pages/ContactoRoutes/ContactoRoutes";
+import React from "react";
 
-function Routes() {
+const Routes = () => {
   return (
     <ReactDomRoutes>
       <Route path="/" element={<Home />} />
@@ -16,6 +17,6 @@ function Routes() {
       <Route path="*" element={<PageNotFound />} />
     </ReactDomRoutes>
   );
-}
+};
 
 export default Routes;
