@@ -16,7 +16,7 @@ const PageNotFound = () => {
           <FoundSubtitleStyled>
             ¡No existe la pagina que buscas!
           </FoundSubtitleStyled>
-          <p>Parece que la página que buscás no existe o fue removida</p>
+          <p>Parece que la página que buscás no existe o fue removida.</p>
           <Link />
         </FoundTextStyled>
         <img src="./logo.png" alt="" className="imgNotFound" />

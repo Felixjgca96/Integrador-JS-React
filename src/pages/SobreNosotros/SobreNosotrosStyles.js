@@ -11,7 +11,6 @@ export const AboutContainerStyled = styled.section`
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
-  background-color: #000000;
   flex-wrap: wrap;
   gap: 20px;
 `;
@@ -35,6 +34,11 @@ export const AboutImgStyled = styled.div`
     width: 350px;
     height: 200px;
     border-radius: 15px;
+
+    @media (max-width: 400px) {
+      width: 250px;
+      height: 100px;
+    }
   }
 `;
 
@@ -47,10 +51,16 @@ export const AboutTextStyled = styled.div`
   width: 350px;
   gap: 10px;
 
+  @media (max-width: 400px) {
+    width: 280px;
+  }
+
   h2 {
     font-size: 1rem;
+    font-weight: 600;
   }
   p {
     font-size: 0.8rem;
+    font-weight: 600;
   }
 `;

@@ -5,6 +5,7 @@ export const FooterStyled = styled.footer`
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-color: #33261d;
 `;
 export const FooterContainerStyled = styled.div`
   display: flex;
@@ -32,6 +33,7 @@ export const EmpresaStyled = styled.div`
 
   h2 {
     font-size: 1rem;
+    color: white;
   }
   img {
     width: 30px;
@@ -63,7 +65,9 @@ export const LinkFooterStyled = styled.div`
     }
   }
   a:hover {
-    border-radius: 10px;
     background: #b7b7a4;
+    color: black;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
   }
 `;

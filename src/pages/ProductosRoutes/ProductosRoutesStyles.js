@@ -11,7 +11,6 @@ export const ProductosRoutesContainerStyled = styled.section`
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
-  background-color: #000000;
   flex-wrap: wrap;
   gap: 20px;
 `;

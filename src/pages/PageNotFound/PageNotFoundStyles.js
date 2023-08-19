@@ -12,6 +12,7 @@ export const FoundContainerStyled = styled.div`
 
   img {
     width: 200px;
+    border-radius: 15px;
   }
 `;
 

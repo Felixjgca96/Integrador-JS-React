@@ -34,6 +34,8 @@ const Contacto = () => {
               <p>+54 9 11-27700307</p>
             </TlfStyled>
           </TlfYGmailStyled>
+          <h2>Siguenos en redes</h2>
+
           <IconosStyled>
             <a href="https://m.facebook.com/Felixc6" target="_blank">
               <img src="./face.png" alt="" />

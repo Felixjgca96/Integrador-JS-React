@@ -30,6 +30,10 @@ export const ProductosContainer = styled.div`
   max-width: 1150px;
   gap: 10px;
 `;
+export const ContainerButtonStyled = styled.div`
+  display: flex;
+  gap: 10px;
+`;
 export const ButtonMore = styled.div`
   display: flex;
   justify-content: center;
@@ -39,17 +43,38 @@ export const ButtonMore = styled.div`
   color: white;
   padding: 0.2rem 1rem;
   background: black;
-  border-radius: 1rem;
-  border: 1px solid #ffffff;
+  border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
 
   &:hover {
     background: #b7b7a4;
     color: black;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
   }
 `;
+export const ButtonMinus = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 0.2rem 1rem;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+  background: #b7b7a4;
+  color: black;
+  opacity: 0.5;
 
+  &:hover {
+    cursor: not-allowed;
+  }
+`;
 export const ButtonCard = styled.div`
   display: flex;
   justify-content: center;
@@ -59,13 +84,15 @@ export const ButtonCard = styled.div`
   color: white;
   padding: 0.2rem 1rem;
   background: black;
-  border-radius: 1rem;
   border: 1px solid #ffffff;
   cursor: pointer;
+  border-radius: 5px;
 
   &:hover {
     background: #b7b7a4;
     color: black;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
   }
 `;
 
@@ -76,9 +103,10 @@ export const ProductosCard = styled.div`
   align-items: center;
   width: 200px;
   height: 250px;
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 1rem;
   border: 2px solid #ffffff;
+  background-image: url("./fondo2.jpg");
 `;
 
 export const ImgCard = styled.div`
@@ -95,7 +123,6 @@ export const TextCard = styled.div`
   justify-content: center;
   align-items: center;
   gap: 7px;
-  background-color: #000000;
   border-radius: 15px;
   width: 195px;
   height: 85px;
@@ -104,6 +131,7 @@ export const TextCard = styled.div`
     font-size: 15px;
     font-weight: 600;
     margin: 0;
+    color: white;
   }
 `;
 export const ContainerPrice = styled.div`

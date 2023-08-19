@@ -10,6 +10,7 @@ export const HomeWrapper = styled.div`
   padding: 2rem;
   margin: 0 auto;
   margin-top: 60px;
+  gap: 30px;
 
   h2 {
     font-weight: 500;

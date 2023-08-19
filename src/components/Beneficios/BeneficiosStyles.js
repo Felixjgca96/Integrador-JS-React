@@ -6,13 +6,15 @@ export const BeneficiosContainerStyled = styled.section`
   align-items: center;
   max-width: 1200px;
   width: 95%;
-
+  gap: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
+  background-image: url("./fondo3.jpg");
 
   h2 {
     font-size: 4rem;
     margin-bottom: 0px;
+    color: white;
     @media (max-width: 900px) {
       font-size: 3rem;
     }
@@ -20,6 +22,8 @@ export const BeneficiosContainerStyled = styled.section`
 
   p {
     font-size: 1.2rem;
+    color: white;
+
     @media (max-width: 900px) {
       font-size: 1rem;
       text-align: center;
@@ -42,6 +46,7 @@ export const CardStyled = styled.div`
   img {
     width: 80px;
     height: 80px;
+    border-radius: 5px;
   }
 
   p {

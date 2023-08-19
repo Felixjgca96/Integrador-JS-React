@@ -1,6 +1,8 @@
 import React from "react";
 import {
+  ButtonMinus,
   ButtonMore,
+  ContainerButtonStyled,
   ProductosContainer,
   ProductosWrapper,
 } from "./CardsProductosStyles";
@@ -16,7 +18,10 @@ const CardsProductos = () => {
           return <CardProducto key={food.id} {...food} />;
         })}
       </ProductosContainer>
-      <ButtonMore>Ver mas</ButtonMore>
+      <ContainerButtonStyled>
+        <ButtonMore>Ver mas</ButtonMore>
+        <ButtonMinus>Ver menos</ButtonMinus>
+      </ContainerButtonStyled>
     </ProductosWrapper>
   );
 };

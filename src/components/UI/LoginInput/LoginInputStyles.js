@@ -10,7 +10,7 @@ export const LoginInputStyled = styled.input`
   padding: 1.2rem 2rem;
   color: white;
   background: #090909;
-  border-radius: 15px;
+  border-radius: 5px;
   border: ${({ isError }) => (isError ? "1px solid #fb103d " : "none")};
   outline: none;
   caret-color: white;

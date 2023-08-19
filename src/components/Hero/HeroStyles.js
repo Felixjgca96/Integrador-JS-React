@@ -5,14 +5,26 @@ export const HeroContainerStyled = styled.section`
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  width: 95%;
+  width: 800px;
   height: auto;
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
-  border-radius: 20px;
-  background-color: #000000;
-  flex-wrap: wrap;
+  border-radius: 2120px;
+  background-image: url("./fondo2.jpg");
+  @media (max-width: 900px) {
+    width: 600px;
+  }
+
+  @media (max-width: 650px) {
+    width: 400px;
+    border-radius: 50px;
+  }
+
+  @media (max-width: 450px) {
+    width: 280px;
+    border-radius: 50px;
+  }
 `;
 
 export const HeroTextContainerStyled = styled.div`
@@ -21,19 +33,25 @@ export const HeroTextContainerStyled = styled.div`
   justify-content: center;
   text-align: center;
   align-items: flex-start;
-  width: 100%;
+  width: 90%;
   margin-right: 30px;
   margin-left: 30px;
   text-align: center;
   align-items: center;
   border-radius: 20px;
+
+  @media (max-width: 650px) {
+    width: 80%;
+  }
+
   h1 {
     font-size: 4rem;
     margin: 10px 0;
     text-align: center;
+    color: white;
 
     @media (max-width: 900px) {
-      font-size: 3rem;
+      font-size: 2.7rem;
     }
     @media (max-width: 450px) {
       font-size: 2.5rem;
@@ -43,6 +61,7 @@ export const HeroTextContainerStyled = styled.div`
     font-size: 2.5rem;
     margin: 10px 0;
     text-align: center;
+    color: white;
 
     @media (max-width: 900px) {
       font-size: 2rem;
@@ -56,5 +75,6 @@ export const HeroTextContainerStyled = styled.div`
     @media (max-width: 900px) {
       font-size: 1rem;
     }
+    color: white;
   }
 `;

@@ -12,7 +12,6 @@ export const ContactoRoutesContainerStyled = styled.section`
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
-  background-color: #000000;
   flex-wrap: wrap;
   gap: 20px;
 
@@ -20,7 +19,8 @@ export const ContactoRoutesContainerStyled = styled.section`
     font-size: 1.5rem;
   }
   p {
-    font-size: 0.8;
+    font-size: 0.8rem;
+    font-weight: 600;
   }
 `;
 
@@ -41,12 +41,14 @@ export const ButtonFormStyled = styled.div`
   color: white;
   padding: 0.2rem 1rem;
   background: black;
-  border-radius: 1rem;
+  border-radius: 5px;
   border: 1px solid #ffffff;
   cursor: pointer;
 
   &:hover {
     background: #b7b7a4;
     color: black;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
   }
 `;

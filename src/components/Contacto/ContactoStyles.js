@@ -9,7 +9,6 @@ export const ContactoContainerStyled = styled.section`
 
   padding-bottom: 30px;
   border-radius: 20px;
-  background-color: #000000;
 
   h2 {
     font-size: 4rem;
@@ -58,6 +57,7 @@ export const MapsStyled = styled.div`
 
   h2 {
     font-size: 1rem;
+    font-weight: 600;
   }
 `;
 
@@ -69,11 +69,12 @@ export const ContactoStyled = styled.div`
   max-width: 1150px;
   width: 280px;
   height: 310px;
-  gap: 10px;
+  gap: 15px;
   border-radius: 15px;
 
   h2 {
     font-size: 1rem;
+    font-weight: 600;
   }
   img {
     width: 50px;
@@ -98,6 +99,7 @@ export const TlfYGmailStyled = styled.div`
   }
   h2 {
     font-size: 1rem;
+    font-weight: 600;
   }
 `;
 
@@ -110,9 +112,13 @@ export const GmailStyled = styled.div`
   img {
     width: 40px;
     height: 40px;
+    background-color: #33261d;
+    padding: 3px;
+    border-radius: 5px;
   }
-  h2 {
+  p {
     font-size: 1rem;
+    font-weight: 600;
   }
 `;
 export const TlfStyled = styled.div`
@@ -124,9 +130,13 @@ export const TlfStyled = styled.div`
   img {
     width: 40px;
     height: 40px;
+    background-color: #33261d;
+    padding: 3px;
+    border-radius: 5px;
   }
-  h2 {
+  p {
     font-size: 1rem;
+    font-weight: 600;
   }
 `;
 export const IconosStyled = styled.div`
@@ -139,8 +149,13 @@ export const IconosStyled = styled.div`
     width: 50px;
     height: 50px;
     border-radius: 10px;
+    background-color: #33261d;
+    padding: 3px;
   }
   img:hover {
     background: #b7b7a4;
+    color: black;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
   }
 `;

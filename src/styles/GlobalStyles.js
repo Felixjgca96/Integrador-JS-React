@@ -12,9 +12,10 @@ export const GlobalStyles = createGlobalStyle`
 
     
 body {
-  background: #090909;
   font-family: 'Montserrat', sans-serif;
-  color: white;
+  color: black;
+  background: #b7b7a4;
+
 
 }
 a {

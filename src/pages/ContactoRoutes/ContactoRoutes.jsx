@@ -22,7 +22,7 @@ const ContactoRoutes = () => {
           <ButtonFormStyled type="button">Enviar</ButtonFormStyled>
         </Form>
       </FormStyled>
-      <p>Muchas Gracias por comunicarte con nosotros.</p>
+      <p>Gracias por comunicarte con nosotros.</p>
     </ContactoRoutesContainerStyled>
   );
 };

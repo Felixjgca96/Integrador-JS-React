@@ -10,7 +10,6 @@ export const CategoriasWrapper = styled.section`
   border-radius: 20px;
   padding: 0px;
   padding-top: 0px;
-  background-color: #000000;
 
   h2 {
     display: flex;
@@ -45,8 +44,9 @@ export const CardCategoria = styled.div`
   border-radius: 15px;
 
   &:hover {
-    background: #b7b7a4;
-    color: black;
+    background-color: #33261d;
+    border-radius: 5px;
+    color: white;
   }
 
   cursor: pointer;
@@ -63,6 +63,6 @@ export const CardCategoria = styled.div`
 export const BorderDecoration = styled.div`
   height: 5px;
   width: 40%;
-  background: black;
+  background: #b7b7a4;
   border-radius: 15px;
 `;
