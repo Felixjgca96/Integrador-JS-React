@@ -58,6 +58,7 @@ export const AboutTextStyled = styled.div`
   h2 {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
   p {
     font-size: 0.8rem;

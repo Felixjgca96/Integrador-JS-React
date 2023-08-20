@@ -13,8 +13,8 @@ export const GlobalStyles = createGlobalStyle`
     
 body {
   font-family: 'Montserrat', sans-serif;
-  color: black;
-  background: #b7b7a4;
+  color: white;
+  background: #74787e;
 
 
 }

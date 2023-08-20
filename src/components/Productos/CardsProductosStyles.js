@@ -15,6 +15,8 @@ export const ProductosWrapper = styled.section`
     font-size: 4rem;
     margin-bottom: 0px;
     margin-top: 0px;
+    color: #00030a;
+
     @media (max-width: 900px) {
       font-size: 3rem;
     }
@@ -42,15 +44,14 @@ export const ButtonMore = styled.div`
   font-size: 16px;
   color: white;
   padding: 0.2rem 1rem;
-  background: black;
+  background: #00030a;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
+  border: 1px solid #ffffff;
 
   &:hover {
-    background: #b7b7a4;
-    color: black;
-    border: 1px solid #ffffff;
+    background: #74787e;
     border-radius: 5px;
   }
 `;
@@ -67,8 +68,7 @@ export const ButtonMinus = styled.div`
   border: 1px solid #ffffff;
   cursor: pointer;
   margin-top: 10px;
-  background: #b7b7a4;
-  color: black;
+  background: #74787e;
   opacity: 0.5;
 
   &:hover {
@@ -83,15 +83,13 @@ export const ButtonCard = styled.div`
   font-size: 14px;
   color: white;
   padding: 0.2rem 1rem;
-  background: black;
+  background: #74787e;
   border: 1px solid #ffffff;
   cursor: pointer;
   border-radius: 5px;
 
   &:hover {
-    background: #b7b7a4;
-    color: black;
-    border-bottom: 1px solid #ffffff;
+    background: #00030a;
     border-radius: 5px;
   }
 `;
@@ -106,7 +104,7 @@ export const ProductosCard = styled.div`
   border-radius: 10px;
   padding: 1rem;
   border: 2px solid #ffffff;
-  background-image: url("./fondo2.jpg");
+  background-color: #00030a;
 `;
 
 export const ImgCard = styled.div`

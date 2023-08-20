@@ -21,7 +21,7 @@ const Navbar = () => {
       <NavbarContainerStyled>
         <LogoContainerStyled>
           <a href="/#">
-            <img src="./logo.png" alt="logo" />
+            <img src="./logo4.png" alt="logo" />
           </a>
         </LogoContainerStyled>
         <MenuStyled>

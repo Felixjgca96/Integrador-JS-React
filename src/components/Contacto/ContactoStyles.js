@@ -13,6 +13,8 @@ export const ContactoContainerStyled = styled.section`
   h2 {
     font-size: 4rem;
     margin-bottom: 0px;
+    color: #00030a;
+
     @media (max-width: 900px) {
       font-size: 3rem;
     }
@@ -58,6 +60,7 @@ export const MapsStyled = styled.div`
   h2 {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
 `;
 
@@ -75,6 +78,7 @@ export const ContactoStyled = styled.div`
   h2 {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
   img {
     width: 50px;
@@ -100,6 +104,7 @@ export const TlfYGmailStyled = styled.div`
   h2 {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
 `;
 
@@ -112,13 +117,14 @@ export const GmailStyled = styled.div`
   img {
     width: 40px;
     height: 40px;
-    background-color: #33261d;
+    background-color: #00030a;
     padding: 3px;
     border-radius: 5px;
   }
   p {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
 `;
 export const TlfStyled = styled.div`
@@ -130,13 +136,14 @@ export const TlfStyled = styled.div`
   img {
     width: 40px;
     height: 40px;
-    background-color: #33261d;
+    background-color: #00030a;
     padding: 3px;
     border-radius: 5px;
   }
   p {
     font-size: 1rem;
     font-weight: 600;
+    color: #00030a;
   }
 `;
 export const IconosStyled = styled.div`
@@ -149,13 +156,13 @@ export const IconosStyled = styled.div`
     width: 50px;
     height: 50px;
     border-radius: 10px;
-    background-color: #33261d;
+    background-color: #00030a;
     padding: 3px;
   }
   img:hover {
-    background: #b7b7a4;
+    background: #74787e;
     color: black;
-    border-bottom: 1px solid #ffffff;
+    border: 1px solid #ffffff;
     border-radius: 5px;
   }
 `;

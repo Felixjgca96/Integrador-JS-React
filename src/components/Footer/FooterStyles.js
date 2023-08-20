@@ -5,7 +5,7 @@ export const FooterStyled = styled.footer`
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #33261d;
+  background-color: #0c2d41;
 `;
 export const FooterContainerStyled = styled.div`
   display: flex;
@@ -65,8 +65,7 @@ export const LinkFooterStyled = styled.div`
     }
   }
   a:hover {
-    background: #b7b7a4;
-    color: black;
+    background: #74787e;
     border-bottom: 1px solid #ffffff;
     border-radius: 5px;
   }

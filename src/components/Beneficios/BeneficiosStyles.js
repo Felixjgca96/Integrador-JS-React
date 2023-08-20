@@ -9,12 +9,11 @@ export const BeneficiosContainerStyled = styled.section`
   gap: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
-  background-image: url("./fondo3.jpg");
 
   h2 {
     font-size: 4rem;
     margin-bottom: 0px;
-    color: white;
+    color: #00030a;
     @media (max-width: 900px) {
       font-size: 3rem;
     }

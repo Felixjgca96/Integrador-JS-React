@@ -4,7 +4,7 @@ export const HeaderContainerStyled = styled.header`
   position: fixed;
   width: 100%;
   z-index: 2;
-  background-color: #33261d;
+  background-color: #00030a;
 `;
 
 export const NavbarContainerStyled = styled.nav`
@@ -16,13 +16,13 @@ export const NavbarContainerStyled = styled.nav`
 export const LogoContainerStyled = styled.div`
   margin-left: 40px;
   img {
-    width: 75px;
-    border-radius: 15px;
+    width: 93px;
+    border-radius: 2px;
   }
   img:hover {
-    background: #b7b7a4;
+    background: #74787e;
     color: black;
-    border-radius: 5px;
+    border-radius: 2px;
   }
   @media (max-width: 760px) {
     margin-left: 20px;
@@ -80,7 +80,7 @@ export const NavListPrincipal = styled.div`
       position: absolute;
       top: 96px;
       right: 2px;
-      background-color: #33261d;
+      background-color: #00030a;
       width: 200px;
       z-index: 1;
       align-items: center;
@@ -105,7 +105,7 @@ export const IconoContainerStyled = styled.div`
   }
 
   img:hover {
-    background: #b7b7a4;
+    background: #74787e;
     color: black;
     border-bottom: 1px solid #ffffff;
     border-radius: 5px;
@@ -127,8 +127,7 @@ export const LinkNav = styled.a`
   border-radius: 5px;
 
   &:hover {
-    background: #b7b7a4;
-    color: black;
+    background: #74787e;
     border-bottom: 1px solid #ffffff;
   }
   @media (max-width: 980px) {

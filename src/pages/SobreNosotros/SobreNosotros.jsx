@@ -37,7 +37,7 @@ const SobreNosotros = () => {
       </AboutImgTextStyled>
       <AboutImgTextStyled>
         <AboutImgStyled>
-          <img src="./about3.png" alt="Aboutimg" />
+          <img src="./about3.jpg" alt="Aboutimg" />
         </AboutImgStyled>
         <AboutTextStyled>
           <h2>Historia</h2>

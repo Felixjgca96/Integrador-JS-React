@@ -11,7 +11,6 @@ export const HeroContainerStyled = styled.section`
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 2120px;
-  background-image: url("./fondo2.jpg");
   @media (max-width: 900px) {
     width: 600px;
   }
@@ -48,7 +47,7 @@ export const HeroTextContainerStyled = styled.div`
     font-size: 4rem;
     margin: 10px 0;
     text-align: center;
-    color: white;
+    color: #00030a;
 
     @media (max-width: 900px) {
       font-size: 2.7rem;
@@ -61,7 +60,7 @@ export const HeroTextContainerStyled = styled.div`
     font-size: 2.5rem;
     margin: 10px 0;
     text-align: center;
-    color: white;
+    color: #00030a;
 
     @media (max-width: 900px) {
       font-size: 2rem;

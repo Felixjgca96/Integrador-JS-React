@@ -16,7 +16,7 @@ export const StyledLink = styled(Link)`
 
   & span {
     padding: 0.5rem 1.5rem;
-    background: black;
+    background: #00030a;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -26,8 +26,7 @@ export const StyledLink = styled(Link)`
     border: 1px solid #ffffff;
 
     &:hover {
-      background: #b7b7a4;
-      color: black;
+      background: #74787e;
       border-bottom: 1px solid #ffffff;
       border-radius: 5px;
     }

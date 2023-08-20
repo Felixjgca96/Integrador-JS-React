@@ -13,7 +13,7 @@ const Footer = () => {
         <EmpresaStyled>
           <h2>Creación Textil Virgen del Valle, C.A. 2022</h2>
 
-          <img src="./logo.png" alt="" />
+          <img src="./logo4.png" alt="" />
         </EmpresaStyled>
         <LinkFooterStyled>
           <a href="#">Privacidad</a>

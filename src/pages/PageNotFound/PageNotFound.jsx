@@ -19,7 +19,7 @@ const PageNotFound = () => {
           <p>Parece que la página que buscás no existe o fue removida.</p>
           <Link />
         </FoundTextStyled>
-        <img src="./logo.png" alt="" className="imgNotFound" />
+        <img src="./logo4.png" alt="" className="imgNotFound" />
       </FoundContainerStyled>
     </div>
   );

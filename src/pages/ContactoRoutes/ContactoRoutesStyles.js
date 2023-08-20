@@ -40,15 +40,13 @@ export const ButtonFormStyled = styled.div`
   font-size: 16px;
   color: white;
   padding: 0.2rem 1rem;
-  background: black;
+  background: #00030a;
   border-radius: 5px;
   border: 1px solid #ffffff;
   cursor: pointer;
 
   &:hover {
-    background: #b7b7a4;
-    color: black;
-    border-bottom: 1px solid #ffffff;
+    background: #74787e;
     border-radius: 5px;
   }
 `;

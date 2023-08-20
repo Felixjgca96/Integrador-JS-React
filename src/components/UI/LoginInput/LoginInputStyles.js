@@ -9,14 +9,13 @@ export const LoginInputStyled = styled.input`
   width: 250px;
   padding: 1.2rem 2rem;
   color: white;
-  background: #090909;
+  background: #00030a;
   border-radius: 5px;
   border: ${({ isError }) => (isError ? "1px solid #fb103d " : "none")};
   outline: none;
   caret-color: white;
 
   &:hover {
-    background: black;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
   }
 `;

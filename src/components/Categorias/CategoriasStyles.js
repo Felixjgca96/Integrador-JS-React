@@ -18,6 +18,8 @@ export const CategoriasWrapper = styled.section`
     font-size: 4rem;
     padding: 0px;
     margin: 15px;
+    color: #00030a;
+
     @media (max-width: 900px) {
       font-size: 3rem;
     }
@@ -44,13 +46,14 @@ export const CardCategoria = styled.div`
   border-radius: 15px;
 
   &:hover {
-    background-color: #33261d;
+    background-color: #00030a;
     border-radius: 5px;
-    color: white;
   }
 
   cursor: pointer;
   h2 {
+    color: white;
+
     font-size: 1rem;
     margin-bottom: 0px;
   }
@@ -63,6 +66,6 @@ export const CardCategoria = styled.div`
 export const BorderDecoration = styled.div`
   height: 5px;
   width: 40%;
-  background: #b7b7a4;
+  background: #74787e;
   border-radius: 15px;
 `;
