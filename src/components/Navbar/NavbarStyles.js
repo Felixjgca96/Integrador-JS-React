@@ -86,6 +86,7 @@ export const NavListPrincipal = styled.div`
       align-items: center;
       gap: 10px;
       padding: 1rem;
+      opacity: 90%;
     }
   }
 `;

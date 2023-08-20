@@ -28,11 +28,22 @@ export const CategoriasWrapper = styled.section`
 
 export const CategoriasContainer = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
   user-select: none;
+
+  @media (max-width: 550px) {
+    flex-wrap: wrap;
+    gap: 90px;
+  }
+  @media (max-width: 450px) {
+    gap: 50px;
+  }
+  @media (max-width: 390px) {
+    gap: 20px;
+  }
 `;
 
 export const CardCategoria = styled.div`

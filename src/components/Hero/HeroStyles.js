@@ -12,17 +12,7 @@ export const HeroContainerStyled = styled.section`
   padding-bottom: 20px;
   border-radius: 2120px;
   @media (max-width: 900px) {
-    width: 600px;
-  }
-
-  @media (max-width: 650px) {
-    width: 400px;
-    border-radius: 50px;
-  }
-
-  @media (max-width: 450px) {
-    width: 280px;
-    border-radius: 50px;
+    width: 100%;
   }
 `;
 
@@ -31,8 +21,7 @@ export const HeroTextContainerStyled = styled.div`
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  align-items: flex-start;
-  width: 90%;
+  width: 100%;
   margin-right: 30px;
   margin-left: 30px;
   text-align: center;
@@ -40,7 +29,9 @@ export const HeroTextContainerStyled = styled.div`
   border-radius: 20px;
 
   @media (max-width: 650px) {
-    width: 80%;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   h1 {
@@ -52,8 +43,9 @@ export const HeroTextContainerStyled = styled.div`
     @media (max-width: 900px) {
       font-size: 2.7rem;
     }
-    @media (max-width: 450px) {
-      font-size: 2.5rem;
+    @media (max-width: 470px) {
+      font-size: 1.6rem;
+      margin: 5px 0;
     }
   }
   h2 {

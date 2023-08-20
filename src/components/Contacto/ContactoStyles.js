@@ -6,13 +6,12 @@ export const ContactoContainerStyled = styled.section`
   justify-content: center;
   max-width: 1200px;
   width: 95%;
-
-  padding-bottom: 30px;
+  gap: 0px;
+  padding-bottom: 20px;
   border-radius: 20px;
 
   h2 {
     font-size: 4rem;
-    margin-bottom: 0px;
     color: #00030a;
 
     @media (max-width: 900px) {
@@ -30,8 +29,8 @@ export const MapsYContactoStyled = styled.div`
   width: 95%;
   margin-left: 20px;
   margin-right: 20px;
-  padding-top: 20px;
   border-radius: 20px;
+
   @media (max-width: 640px) {
     flex-direction: column;
     gap: 5px;

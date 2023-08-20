@@ -21,13 +21,13 @@ export const products = [
   //   categoria: "hombre",
   //   tarjetaImg: "./franela100.png",
   // },
-  {
-    id: 4,
-    nombre: "Camisa Poliester",
-    precio: "5",
-    categoria: "hombre",
-    tarjetaImg: "./camisapoliester.png",
-  },
+  // {
+  //   id: 4,
+  //   nombre: "Camisa Poliester",
+  //   precio: "5",
+  //   categoria: "hombre",
+  //   tarjetaImg: "./camisapoliester.png",
+  // },
 
   {
     id: 5,
@@ -36,13 +36,13 @@ export const products = [
     categoria: "dama",
     tarjetaImg: "./calzadama.png",
   },
-  {
-    id: 6,
-    nombre: "Remera Dama",
-    precio: "5",
-    categoria: "dama",
-    tarjetaImg: "./remeradama.png",
-  },
+  // {
+  //   id: 6,
+  //   nombre: "Remera Dama",
+  //   precio: "5",
+  //   categoria: "dama",
+  //   tarjetaImg: "./remeradama.png",
+  // },
   {
     id: 7,
     nombre: "Top Dama",
@@ -57,13 +57,13 @@ export const products = [
   //   categoria: "dama",
   //   tarjetaImg: "./camperadama.png",
   // },
-  {
-    id: 9,
-    nombre: "Campera Niño",
-    precio: "15",
-    categoria: "niño",
-    tarjetaImg: "./camperaniño.png",
-  },
+  // {
+  //   id: 9,
+  //   nombre: "Campera Niño",
+  //   precio: "15",
+  //   categoria: "niño",
+  //   tarjetaImg: "./camperaniño.png",
+  // },
   {
     id: 10,
     nombre: "Jogger Dama",
