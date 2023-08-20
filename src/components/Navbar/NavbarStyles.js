@@ -54,7 +54,7 @@ export const MenuContainer = styled.div`
     }
 
     img:hover {
-      background: #b7b7a4;
+      background: #74787e;
       color: black;
       border-bottom: 1px solid #ffffff;
       border-radius: 5px;
