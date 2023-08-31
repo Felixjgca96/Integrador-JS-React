@@ -5,23 +5,37 @@ export const FoundContainerStyled = styled.div`
   justify-content: center;
   align-items: center;
   max-width: 1400px;
-  margin: 0 auto;
-  height: 60vh;
   gap: 5rem;
-  margin-top: 60px;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 
+  @media (max-width: 770px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  @media (max-width: 770px) {
+  }
   img {
-    width: 200px;
-    border-radius: 15px;
+    width: 150px;
+    border-radius: 5px;
+
+    @media (max-width: 770px) {
+      width: 100px;
+    }
   }
 `;
 
 export const FoundTextStyled = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 
   & h1 {
     margin: 0;
