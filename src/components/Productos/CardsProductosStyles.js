@@ -36,45 +36,7 @@ export const ContainerButtonStyled = styled.div`
   display: flex;
   gap: 10px;
 `;
-export const ButtonMore = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  padding: 0.2rem 1rem;
-  background: #00030a;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
-  border: 1px solid #ffffff;
 
-  &:hover {
-    background: #74787e;
-    border-radius: 5px;
-  }
-`;
-export const ButtonMinus = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  padding: 0.2rem 1rem;
-  background: black;
-  border-radius: 5px;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-  margin-top: 10px;
-  background: #74787e;
-  opacity: 0.5;
-
-  &:hover {
-    cursor: not-allowed;
-  }
-`;
 export const ButtonCard = styled.div`
   display: flex;
   justify-content: center;
