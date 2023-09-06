@@ -1,10 +1,10 @@
 export const Categories = [
-  {
-    id: 1,
-    img: "./todos.png",
-    title: "Todos",
-    category: "todos",
-  },
+  // {
+  //   id: 1,
+  //   img: "./todos.png",
+  //   title: "Todos",
+  //   category: "todos",
+  // },
   {
     id: 2,
     img: "./hombre.png",

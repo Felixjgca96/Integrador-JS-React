@@ -135,3 +135,26 @@ export const LinkNav = styled.a`
     font-size: 15px;
   }
 `;
+export const CartNavStyled = styled.div`
+  position: relative;
+  cursor: pointer;
+
+  span {
+    position: absolute;
+    top: 0;
+
+    height: 20px;
+    width: 20px;
+    text-align: center;
+
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: white;
+    background-color: red;
+    font-size: 0.9rem;
+  }
+`;
+export const LinkContainerStyled = styled.div`
+  font-size: 1.2rem;
+  color: ${(props) => (props.home ? "#ff9d01" : "#ff9300")};
+`;

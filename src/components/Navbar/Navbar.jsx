@@ -7,11 +7,13 @@ import {
   IconoContainerStyled,
   NavListPrincipal,
   MenuContainer,
+  CartNavStyled,
 } from "./NavbarStyles";
 import { useContext } from "react";
 import { Contexto } from "./BurgerMenuContext";
 import { Link } from "react-router-dom";
 import { LinkNav } from "./NavbarStyles";
+import CartIcon from "./CartIcon/CartIcon";
 
 const Navbar = () => {
   const { state, dispatch } = useContext(Contexto);
@@ -46,6 +48,9 @@ const Navbar = () => {
             </Link>
           </NavListPrincipal>
         </MenuStyled>
+        <CartNavStyled>
+          <CartIcon />
+        </CartNavStyled>
         <IconoContainerStyled>
           <img src="./usuario.png" alt="icono" />
           <img src="./carritodecompras.png" alt="icono" />
